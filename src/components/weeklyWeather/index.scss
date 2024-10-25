@@ -1,0 +1,97 @@
+.weekly-container{
+    width: 100%;
+    position: relative;
+    .container-title {
+        background-color: #fff;
+        border-radius: 6px 6px 0 0;
+        display: flex;
+        font-size: 12px;
+        font-weight: 700;
+        justify-content: space-between;
+        letter-spacing: 0.5px;
+        padding: 12px 20px 12px 20px;
+        text-transform: uppercase;
+        align-items: baseline;
+        margin-bottom: 1px;
+        p{
+            margin: 0;
+            opacity: .6;
+        }
+    }
+    .container-body{
+        border-radius: 0 0 6px 6px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        .daily-item {
+            background-color: #fff;
+            color: rgba(0, 0, 0, 0.6);
+            margin-bottom: 1px;
+            display: flex;
+            padding: 15px 20px;
+            align-items: center;
+            font-size: 12px;
+            text-align: center;
+            gap: 20px;
+            .date{
+                width: 65px;
+                p{
+                    margin: 0;
+                }
+                .day{
+                    color: #000;
+                    font-size: 16px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                }
+            }
+            .temp{
+                min-width: 98px;
+                color: #000;
+                flex-shrink: 0;
+                font-size: 28px;
+                font-weight: 700;
+                margin-right: 4px;
+                text-align: left;
+                span{
+                    font-size: 14px;
+                    line-height: 1.28;
+                    margin-left: -10px;
+                    opacity: .4;
+                }
+            }
+            .description{
+                color: #000;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 24px;
+                margin-right: 26px;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden;
+                text-align: left;
+            }
+            &:last-child{
+                border-radius: 0 0 6px 6px;
+                margin: 0;
+            }
+            &:hover{
+                background-color: #f1f4f8;
+            }
+            @media (max-width: 576px) {
+                padding: 6px;
+                gap: 4px;
+                .date{
+                    width: 55px;
+                    min-width: 55px;
+                }
+                .temp{
+                    min-width: 82px;
+                }
+            }
+        }
+        @media (max-width: 576px) {
+            flex-direction: column;
+        }
+    }
+}

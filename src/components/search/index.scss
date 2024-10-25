@@ -1,0 +1,33 @@
+.search {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    padding: 0 14px 0 12px;
+    height: 34px;
+    width: 324px;
+    border-radius: 0.5rem;
+    color: #24292e;
+    background-color: #ffffff;
+    font-size: 1.4rem;
+    border: 1px solid #ced6e0;
+    transition: all 0.3s;
+    box-sizing: border-box;
+    width: 324px;
+    &:hover {
+        border: 1px solid #1677ff;
+        box-shadow: 0 0 0 3px #1677ff1a;
+    }
+    input {
+        width: 100%;
+        border: none;
+        outline: none;
+    }
+    img{
+        width:24px;
+        height: 24px;
+        cursor: pointer;
+    }
+    @media (max-width: 576px) {
+        width: 100%;
+    }
+}

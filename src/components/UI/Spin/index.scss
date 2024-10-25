@@ -1,0 +1,13 @@
+.spin-container{
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 99999;
+    &>div{
+        position: absolute;
+        top: calc(50% - 6px);
+        text-align: center;
+        line-height: 0;
+        width: 100%;
+    }
+}
