@@ -4,7 +4,7 @@
 # Mobile :
 ![image](https://github.com/user-attachments/assets/22292f29-734f-4d46-a4c1-5bf24a646e53)
 
-# Totally we are having 3 sections
+# Totally we are having 4 sections
 ## Header section
 ### 1. Get a refreshed forecast of the current location
 ### 2. Get a weekly forecast of the current location
