@@ -1,3 +1,6 @@
+## npm i
+## npm run start
+
 # Desktop :
 ![image](https://github.com/user-attachments/assets/543fc5f3-468d-4b81-8cbb-53f7ebd01df1)
 
